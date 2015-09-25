@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.cindy.madlibs.ChooseStoryActivity">
+
+    <TextView android:text="@string/choose_story" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:id="@+id/chooseStoryTextView"/>
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/storyListView"
+        android:clickable="true"
+        android:entries="@array/stories"/>
+
+    <TextView android:text="@string/choose_story" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:id="@+id/chosenStory"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_chosen_story"
+        android:clickable="true"
+        android:onClick="toFillWordsActivity"
+        android:id="@+id/getChosenStoryButton"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_random_story"
+        android:clickable="true"
+        android:onClick="toFillWordsActivity"
+        android:id="@+id/getRandomChosenStoryButton"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

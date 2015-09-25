@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Mad Libs</string>
+
+    <string name="hello_world">Hello there! I have a story, but there are missing words.
+    Can you complete it? You will first fill in all the words before seeing the whole story.
+    This will cause us a lot of fun!</string>
+
+    <string name="choose_story">Choose a story you want to fill in.</string>
+    <string name="action_chosen_story">Fill in chosen story</string>
+    <string name="action_random_story">Fill in a random story</string>
+
+    <string name="action_speak_story">SPEAK STORY</string>
+    <string name="speak_word">SPEAK WORD</string>
+    <string name="speech_not_supported">Speech is not supported. Please type your word</string>
+
+    <string name="fill_words">Fill in the words to complete the story!</string>
+    <string name="words_left">n word(s) left</string>
+    <string name="word_edit_text">word type</string>
+    <string name="action_word_ready">OK</string>
+    <string name="word_type">please type a/an (noun)</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_start">GET STARTED!</string>
+    <string name="title_activity_fill_words">FillWordsActivity</string>
+    <string name="title_activity_story">StoryActivity</string>
+
+
+    <string name="mad_lib_story">Your Mad Lib Story!</string>
+    <string name="action_new_story">MAKE ANOTHER STORY!</string>
+    <string name="title_activity_choose_story">ChooseStoryActivity</string>
+
+
+    <string-array name="stories">
+        <item>simple</item>
+        <item>tarzan</item>
+        <item>university</item>
+        <item>clothes</item>
+        <item>dance</item>
+    </string-array>
+
+
+</resources>
